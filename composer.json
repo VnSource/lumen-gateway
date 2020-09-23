@@ -1,0 +1,28 @@
+{
+    "name": "vnsource/lumen-gateway",
+    "description": "Package for the Lumen framework.",
+    "keywords": ["framework", "vnsource", "lumen"],
+    "homepage": "https://github.com/vnsource/lumen-gateway",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Mr. VnS",
+            "email": "mrvns@live.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "laravel/lumen-framework": "^8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/constants.php",
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "LumenGateway\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
